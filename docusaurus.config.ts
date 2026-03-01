@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Praktikum Struktur Data Algoritma',
+  tagline: 'Materi Pembelajaran dan Penugasan Praktikum',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -75,9 +75,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Praktikum SDA',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Logo Praktikum SDA',
         src: 'img/logo.svg',
       },
       items: [
@@ -85,7 +85,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Materi & Penugasan',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -99,33 +99,25 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Menu',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Materi & Penugasan',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Komunitas',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Diskusi Kelas',
+              href: '#', // Ganti dengan link grup kelas jika ada
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Lainnya',
           items: [
             {
               label: 'Blog',
@@ -138,11 +130,15 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Praktikum Struktur Data dan Algoritma. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 4,
     },
   } satisfies Preset.ThemeConfig,
 };

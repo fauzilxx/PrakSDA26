@@ -2,46 +2,20 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Pengantar Praktikum
 
-Let's discover **Docusaurus in less than 5 minutes**.
+ **Praktikum Struktur Data dan Algoritma**.
 
-## Getting Started
+Website ini dirancang sebagai salah satu panduan belajar yang akan digunakan untuk praktikum struktur data dan algoritma tahun ajaran 2025/2026 semester genap.
+Adapula teman-teman bisa menggunakan website atau sumber lain untuk pembelajaran lebih lanjut.
 
-Get started by **creating a new site**.
+## Struktur Pembelajaran
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Materi pada website ini dibagi menjadi beberapa bagian utama:
 
-### What you'll need
+1. **Materi Praktikum**: Penjelasan konsep dasar hingga lanjut mengenai struktur data dan algoritma.
+2. **Penugasan**: Soal-soal latihan dan proyek yang wajib dikerjakan sebagai syarat kelulusan praktikum.
+3. **Lainnya** : Seperti kuis, tools tambahan, dll
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Untuk memulai, silakan pelajari materi dasar yang telah disediakan pada menu di samping kiri. Pastikan Anda memahami setiap konsep sebelum melanjutkan ke topik berikutnya.
+Selamat belajar dan semoga sukses! 🚀
