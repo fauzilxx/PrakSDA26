@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Praktikum Struktur Data Algoritma',
   tagline: 'Materi Pembelajaran dan Penugasan Praktikum',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -43,8 +43,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          /*editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',*/
         },
         blog: {
           showReadingTime: true,
@@ -78,7 +78,7 @@ const config: Config = {
       title: 'Praktikum SDA',
       logo: {
         alt: 'Logo Praktikum SDA',
-        src: 'img/logo.svg',
+        src: 'img/favicon.svg',
       },
       items: [
         {
@@ -87,7 +87,7 @@ const config: Config = {
           position: 'left',
           label: 'Materi & Penugasan',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        //{to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -119,10 +119,10 @@ const config: Config = {
         {
           title: 'Lainnya',
           items: [
-            {
+            /*{
               label: 'Blog',
               to: '/blog',
-            },
+            },*/
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
