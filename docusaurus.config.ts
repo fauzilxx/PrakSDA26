@@ -75,7 +75,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Praktikum SDA',
+      title: 'SDA26',
       logo: {
         alt: 'Logo Praktikum SDA',
         src: 'img/favicon.svg',
