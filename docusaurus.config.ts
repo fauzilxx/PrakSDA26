@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'SDA26',
+  title: 'Praktikum SDA 2026',
   tagline: 'Materi Pembelajaran dan Penugasan Praktikum',
   favicon: 'img/favicon.svg',
 
