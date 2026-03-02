@@ -1,0 +1,29 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0; /* More spacing */
+  width: 100%;
+  background-color: var(--ifm-background-color); /* Ensure contrast */
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.avatar:hover {
+  transform: translateY(-5px);
+}
+
+.avatarPhoto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}

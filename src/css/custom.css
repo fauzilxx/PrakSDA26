@@ -17,76 +17,119 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }*/
 
+/* Modern Color Palette - Vintage Gray */
 :root {
-  --ifm-color-primary: #677bab;
-  --ifm-color-primary-dark: #475492;
-  --ifm-color-primary-darker: #262d79;
-  --ifm-color-primary-darkest: #03045e;
-  --ifm-color-primary-light: #88a2c4;
-  --ifm-color-primary-lighter: #a9c9dd;
-  --ifm-color-primary-lightest: #caf0f6;
+  --ifm-color-primary: #607d8b; /* Blue Grey - Vintage Feel */
+  --ifm-color-primary-dark: #455a64;
+  --ifm-color-primary-darker: #37474f;
+  --ifm-color-primary-darkest: #263238;
+  --ifm-color-primary-light: #78909c;
+  --ifm-color-primary-lighter: #90a4ae;
+  --ifm-color-primary-lightest: #cfd8dc;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-background-color: #f5f5f5; /* Light Gray Background */
 }
 
-/* Modern & Simple UI Tweaks */
+/* Dark Mode Palette - Vintage Slate */
+[data-theme='dark'] {
+  --ifm-color-primary: #90a4ae;
+  --ifm-color-primary-dark: #78909c;
+  --ifm-color-primary-darker: #607d8b;
+  --ifm-color-primary-darkest: #546e7a;
+  --ifm-color-primary-light: #b0bec5;
+  --ifm-color-primary-lighter: #cfd8dc;
+  --ifm-color-primary-lightest: #eceff1;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #263238; /* Dark Slate Background */
+}
+
+/* Modern Hero Section */
 .hero {
-  padding: 4rem 0;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-darker) 100%);
+  color: white;
+  padding: 5rem 0;
+  margin-bottom: 0;
   text-align: center;
 }
 
 .hero__title {
   font-weight: 800;
+  font-size: 3.5rem;
   margin-bottom: 24px;
+  text-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .hero__subtitle {
   font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
   margin-bottom: 32px;
   font-weight: 400;
 }
 
+/* Feature Section */
 .features {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 /* Card-like effect for feature items */
 .col--4 {
-  padding: 2rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 16px;
 }
 
 .col--4:hover {
-  transform: translateY(-5px);
-  background-color: var(--ifm-color-emphasis-100); 
+  transform: translateY(-8px);
+  background-color: rgba(0,0,0,0.03);
 }
 
 [data-theme='dark'] .col--4:hover {
-  background-color: var(--ifm-color-emphasis-200);
+  background-color: rgba(255,255,255,0.05);
 }
 
-/* Button styling */
+/* Modern Button Styling */
 .button--lg {
-  padding: 1rem 2rem;
-  font-size: 1.1rem;
-  border-radius: 50px; /* Pill shape */
-  font-weight: 600;
-  transition: all 0.2s;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+
+.button--secondary {
+  background-color: white;
+  color: var(--ifm-color-primary-darker);
+  border: none;
 }
 
 .button--lg:hover {
   transform: scale(1.05);
+  background-color: #eceff1;
+  color: var(--ifm-color-primary-darkest);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  text-decoration: none;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #677bab;
-  --ifm-color-primary-dark: #475492;
-  --ifm-color-primary-darker: #262d79;
-  --ifm-color-primary-darkest: #03045e;
-  --ifm-color-primary-light: #88a2c4;
-  --ifm-color-primary-lighter: #a9c9dd;
-  --ifm-color-primary-lightest: #caf0f6;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+/* Contributor Avatar Styling */
+.avatar__photo {
+  border: 4px solid white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+[data-theme='dark'] .avatar__photo {
+  border-color: #333;
+}
+
+/* Section Divider */
+.section-divider {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+  margin: 0;
+}
+
+[data-theme='dark'] .section-divider {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
 }

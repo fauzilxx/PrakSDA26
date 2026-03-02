@@ -5,34 +5,32 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  image: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Materi Terstruktur',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    image: require('@site/static/img/materi.png').default,
     description: (
       <>
-        Panduan lengkap mulai dari dasar hingga tingkat lanjut dalam struktur data dan algoritma
-        yang disusun secara sistematis.
+        Materi setiap pertemuan praktikum yang disusun sedemikian rupa untuk bisa diakses kapan saja dan dimana saja
       </>
     ),
   },
   {
     title: 'Penugasan Mingguan',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    image: require('@site/static/img/tugas.png').default,
     description: (
       <>
-        Tugas praktikum yang dirancang untuk menguji pemahaman dan mengasah
-        keterampilan problem solving Anda dalam pemrograman.
+        Tugas praktikum yang dirancang untuk mahasiswa praktek langsung lewat studi kasus yang relevan dengan materi yang dipelajari, sehingga dapat meningkatkan pemahaman dan keterampilan praktis.
       </>
     ),
   },
   {
     title: 'Sumber Belajar',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: require('@site/static/img/sumber-lainnya.png').default,
     description: (
       <>
         Akses ke berbagai referensi, contoh kode, dan tips praktis untuk
@@ -42,11 +40,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, image, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={image} className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

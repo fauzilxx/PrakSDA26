@@ -8,4 +8,6 @@
 .featureSvg {
   height: 200px;
   width: 200px;
+  object-fit: contain; /* Ensures images are not distorted */
+  margin-bottom: 24px;
 }
