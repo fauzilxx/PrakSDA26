@@ -19,10 +19,23 @@ const ContributorList: ContributorItem[] = [
   },
   {
     name: 'Velengio',
-    role: 'Co-Maintainer', // Assuming role, can adjust
+    role: 'Co-Maintainer', 
     imageUrl: 'https://github.com/Unalome7431.png',
     githubUrl: 'https://github.com/Unalome7431',
   },
+  {
+    name: 'Firizqi Aditya',
+    role: 'Co-Maintainer', 
+    imageUrl: 'https://github.com/Adityamulyaf.png',
+    githubUrl: 'https://github.com/Adityamulyaf',
+  },
+  {
+    name: 'Arul',
+    role: 'Co-Maintainer', 
+    imageUrl: 'https://github.com/ArluxShow.png',
+    githubUrl: 'https://github.com/ArluxShow',
+  }
+  
 ];
 
 function Contributor({name, role, imageUrl, githubUrl}: ContributorItem) {

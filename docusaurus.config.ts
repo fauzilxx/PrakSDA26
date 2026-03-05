@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Praktikum SDA 2026',
   tagline: 'Materi Pembelajaran dan Penugasan Praktikum',
-  favicon: 'img/favicon.svg',
+  favicon: 'img/java.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -69,7 +69,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
@@ -78,7 +77,7 @@ const config: Config = {
       title: 'SDA26',
       logo: {
         alt: 'Logo Praktikum SDA',
-        src: 'img/favicon.svg',
+        src: 'img/java.png',
       },
       items: [
         {

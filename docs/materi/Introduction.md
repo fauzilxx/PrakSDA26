@@ -110,3 +110,6 @@ java Main
 ```text
 Hello Java 21!
 ```
+
+## Java Compilation Process
+![Java Compilation Process](/img/How-java-code-Executes.webp)
