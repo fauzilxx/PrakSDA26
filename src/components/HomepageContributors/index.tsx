@@ -32,8 +32,8 @@ const ContributorList: ContributorItem[] = [
   {
     name: 'Arul',
     role: 'Co-Maintainer', 
-    imageUrl: 'https://github.com/ArluxShow.png',
-    githubUrl: 'https://github.com/ArluxShow',
+    imageUrl: 'https://github.com/ArluxSho.png',
+    githubUrl: 'https://github.com/ArluxSho',
   }
   
 ];
