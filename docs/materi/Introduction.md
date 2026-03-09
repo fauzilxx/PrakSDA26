@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Setup Java 21 di Windows
 
+ Link Referensi: **[How To Setup Java](https://www.geeksforgeeks.org/linux-unix/download-install-java-windows-linux-macos/)**
+ 
 ### Kenapa harus Java 21?
 
 Java 21 adalah versi **LTS (Long-Term Support)** terbaru yang menawarkan berbagai fitur modern dan peningkatan performa. Dengan menggunakan Java 21, Anda akan mendapatkan pengalaman belajar yang lebih baik dan dapat memanfaatkan sintaks terbaru dalam pengembangan aplikasi.
