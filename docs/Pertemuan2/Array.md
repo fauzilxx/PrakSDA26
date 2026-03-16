@@ -60,9 +60,9 @@ yang berurutan. Array memungkinkan penyimpanan beberapa nilai di bawah satu nama
 
 | Aspek | Kelebihan | Kekurangan |
 |-------|-----------|------------|
-| Akses Elemen | Cepat ($O(1)$) karena menggunakan indeks | Tidak fleksibel dalam perubahan ukuran |
-| Penambahan | Cepat jika di akhir (dengan indeks kosong) | Lambat ($O(n)$) jika di tengah atau awal karena pergeseran |
-| Penghapusan | Bisa dilakukan dengan mudah jika di akhir ($O(1)$) | Lambat ($O(n)$) jika di tengah atau awal |
+| Akses Elemen | Cepat O(1) karena menggunakan indeks | Tidak fleksibel dalam perubahan ukuran |
+| Penambahan | Cepat jika di akhir (dengan indeks kosong) | Lambat O(n) jika di tengah atau awal karena pergeseran |
+| Penghapusan | Bisa dilakukan dengan mudah jika di akhir O(1) | Lambat O(n) jika di tengah atau awal |
 | Memori | Efisien jika ukuran tetap dan diketahui sebelumnya | Pemborosan memori jika ukuran terlalu besar |
 | Kecepatan Umum | Sangat cepat untuk akses sekuensial atau acak | Tidak efisien untuk operasi insert/delete dinamis |
 
