@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# SHORTEST PATH
+# Shortest Path
 
 Masalah **Shortest Path** adalah masalah pencarian jalur antara dua simpul (*node*/*vertex*) di dalam sebuah graf sedemikian rupa sehingga jumlah bobot (*weight*) pada sisi (*edge*) yang membentuk jalur tersebut adalah yang paling minimum.
 
@@ -12,6 +12,8 @@ Algoritma Dijkstra adalah algoritma *greedy* yang digunakan untuk mencari jalur 
 
 * **Karakteristik:** Sangat cepat, namun tidak bisa menangani graf yang memiliki sisi dengan bobot negatif.
 * **Kompleksitas Waktu:** O(n²)
+
+![Visualisasi Algoritma Dijkstra](/img/shortest_path.jpg)
 
 ### Cara Kerja:
 1. Berikan nilai jarak `0` untuk simpul awal, dan nilai tak terhingga (∞) untuk semua simpul lainnya.
