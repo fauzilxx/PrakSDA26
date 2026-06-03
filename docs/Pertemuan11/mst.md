@@ -191,9 +191,9 @@ Berbeda dengan Kruskal yang memilih sisi secara global, **Algoritma Prim** menum
 
 ### Cara Kerja:
 1.  Buat himpunan `inMST` untuk melacak simpul yang sudah masuk ke dalam daerah MST.
-2.  Set nilai kunci (`key`) semua simpul menjadi tak hingga ($\infty$), kecuali simpul pertama (sumber) yang diset `0`.
+2.  Set nilai kunci (`key`) semua simpul menjadi tak hingga (∞), kecuali simpul pertama (sumber) yang diset `0`.
 3.  Gunakan **Min-Priority Queue** untuk mengambil simpul dengan nilai kunci terkecil yang belum masuk ke dalam MST.
-4.  Evaluasi semua tetangga dari simpul tersebut. Jika tetangga $v$ belum masuk MST dan bobot sisi $u-v$ lebih kecil dari kunci $v$ saat ini (`key[v] > weight`), maka perbarui:
+4.  Evaluasi semua tetangga dari simpul tersebut. Jika tetangga v belum masuk MST dan bobot sisi u-v lebih kecil dari kunci $v$ saat ini (`key[v] > weight`), maka perbarui:
     *   `key[v] = weight`
     *   Masukkan kembali ke *Priority Queue*: `pq.add(new Pair(v, key[v]))`
     *   `parent[v] = u`
